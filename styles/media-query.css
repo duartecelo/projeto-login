@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 769px) and (max-width: 1000px) {
+    body{
+        background-image: linear-gradient(to top, #49a09d, #5f2c82);
+    }
+    
+    section{
+        width: 80vw;
+        height: 280px;
+    }
+    
+    #imagem{
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+
+    #formulario{
+        float: right;
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    body{
+        background-image: linear-gradient(to top, #49a09d, #5f2c82);
+    }
+    
+    section{
+        width: 950px;
+        height: 350px;
+    }
+
+    h1{
+        font-size: 2em;
+    }
+
+    p{
+        font-size: 1em;
+        margin: 20px 0px;
+    }
+
+    #imagem{
+        background-image: url(../images/predio-grande.jpg);
+        float: right;
+        width: 50%;
+        height: 100%;
+    }
+
+    #formulario{
+        float: left;
+        width: 50%;
+    }
+}
+

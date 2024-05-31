@@ -1,0 +1,124 @@
+@charset "UTF-8";
+/*
+    VERSÃO TABLET
+
+    CORES
+    
+    Verde: #49a09d
+    Lilás #5f2c82
+*/
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #5F2C82;
+}
+
+main{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+section{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+    width: 250px;
+    height: 515px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.450);
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
+}
+
+#imagem{
+    display: block;
+    height: 200px;
+    background: url(../images/predio-medio.jpg) left bottom no-repeat fixed;
+    background-size: cover;
+
+}
+
+#formulario{
+    display: block;
+    padding: 10px;
+}
+h1{
+    margin-bottom: 10px;
+    text-align: center;
+}
+p{
+    font-size: 0.8em;
+}
+.botoes{
+    background: #5F2C82;
+    border: 2px solid #5F2C82;
+    display: block;
+    width: 100%;
+    height: 40px;
+    border-radius: 8px;
+    margin: 5px 0px;
+}
+.botoes input{
+    background-color: #94cfcd;
+    font-size: 1em;
+    width: calc(100% - 44.8px);
+    height: 100%;
+    border: 0px;
+    border-radius: 6px;
+    padding: 4px;
+    transform: translateY(-11px);
+}
+.botoes input:focus-within{
+    background-color: white;
+    border: none;
+}
+div.botoes i{
+    color: white;
+    font-size: 1.9em;
+    width: 40px;
+    padding: 5px;
+}
+form > input{
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: #53aaa7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+form > input:hover{
+    background-color: #2d6462;
+}
+a{
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    padding-top: 5px;
+    margin-top: 5px;
+    background-color: white;
+    color: #2d6462;
+    border: 1px solid #49a09d;
+    border-radius: 7px;
+    text-decoration: none;
+}
+a:hover{
+    background-color: #6cd3cf;
+}
+form > a.botao > i{
+    font-size: 0.8em;
+}
